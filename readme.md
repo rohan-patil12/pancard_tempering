@@ -1,14 +1,27 @@
-Step to run application:
-Step 1:	Create the copy of the project.
-Step 2: Open command prompt and change your current path 
-to folder where you can find 'app.py' file.
-Step 3: Create environment by command given below-
-conda create -name <environment name>
-Step 4: Activate environment by command as follows-
-conda activate <environment name>
-Step 5: Use command below to install required dependencies-
-python -m pip install -r requirements.txt
-Step 6: Run application by command;
-python app.py
-You will get url copy it and paste in browser.
-Step 7: You have sample_data folder where you can get images to test.
+# Pancard Tempering Detection ✅
+
+This project is a **Flask web application** that detects whether a given PAN card image is genuine or tampered.
+
+## 🚀 Features
+- Upload PAN card images
+- Detect tempering using image processing & ML
+- User-friendly web interface built with Flask
+
+## 🛠️ Technologies Used
+- Python 3.x
+- Flask
+- OpenCV / Image Processing
+- HTML, CSS, JavaScript
+
+## 📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/rohan-patil12/pancard_tempering.git
+cd pancard_tempering
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/Scripts/activate  
+
+# Install dependencies
+pip install -r requirements.txt
